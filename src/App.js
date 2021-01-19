@@ -8,6 +8,7 @@ import Nav from './components/Nav';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import OurWork from './pages/OurWork';
+import MovieDetail from './pages/MovieDetail';
 
 //Router
 import {Switch,Route} from 'react-router-dom'
@@ -27,11 +28,15 @@ function App() {
           <OurWork />
         </Route>
 
+        <Route path = "/work/:id" >
+          <MovieDetail />
+        </Route>
+
         <Route path = "/contact" exact>
           <ContactUs />
         </Route>
       </Switch>
-      
+
     </div>
   );
 }

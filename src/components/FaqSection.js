@@ -1,4 +1,4 @@
-import {Layout,Description, Image} from '../styles';
+import {Layout} from '../styles';
 import styled from 'styled-components';
 
 

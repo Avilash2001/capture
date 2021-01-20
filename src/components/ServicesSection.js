@@ -75,6 +75,8 @@ const Cards = styled.div`
 `
 
 const Card = styled.div`
+    /* flex-basis: 20%;
+    padding: 2rem; */
     flex-basis: 20rem;
     .icon{
         display:flex;
